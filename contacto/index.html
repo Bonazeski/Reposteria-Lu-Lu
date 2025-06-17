@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contacto | Repostería Lu & Lu</title>
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
@@ -24,10 +25,16 @@
   <main class="seccion-contacto">
 
     <h2>Contacto</h2>
-    <p>Nos encantaría escuchar de vos! Si tenés alguna pregunta, sugerencia o simplemente querés ponerte en contacto con nosotros, no dudes en hacerlo. Estamos aquí para ayudarte en todo lo que podamos.</p>
+    <div class="contenedor-contacto">
+      <p>Nos encantaría escuchar de vos! Si tenés alguna pregunta, sugerencia o simplemente querés ponerte en contacto
+        con nosotros, no dudes en hacerlo. Estamos aquí para ayudarte en todo lo que podamos.</p>
+    </div>
 
     <h3>Información de contacto</h3>
-    <p>Puedes contactarnos a través de nuestras redes o mediante el formulario de contacto que se encuentra a continuación:</p>
+    <div class="contenedor-contacto">
+      <p>Puedes contactarnos a través de nuestras redes o mediante el formulario de contacto que se encuentra a
+        continuación:</p>
+    </div>
 
     <div class="redesContacto">
       <div class="redesContacto-wpp">
@@ -50,18 +57,18 @@
       </div>
     </div>
 
-  
-     <section class="formulario-contacto">
+
+    <section class="formulario-contacto">
       <h2>Envíanos un mensaje</h2>
       <!--para nada funciona bien jeje-->
       <form action="mailto:bonazeskiluz@gmail.com?subject=Comentario" method="post" enctype="text/plain">
-        <label  for="Nombre">Nombre:</label>
+        <label for="Nombre">Nombre:</label>
         <input type="text" name="Nombre" id="Nombre" required>
 
-        <label  for="Apellido">Apellido:</label>
+        <label for="Apellido">Apellido:</label>
         <input type="text" name="Apellido" id="Apellido" required>
 
-        <label  for="Correo">Correo:</label>
+        <label for="Correo">Correo:</label>
         <input type="email" name="email" id="Correo" required>
 
         <label for="Comentario">Comentario:</label>
@@ -70,11 +77,12 @@
         <input type="submit" value="Enviar">
       </form>
     </section>
-   
+
 
     <section class="ubicacion">
       <h3>Ubicación</h3>
-      <p>Si te gusta la buena repostería, ven a visitarnos en Posadas. Entre San Martín y Buenos Aires, encontrarás el rincón perfecto para disfrutar de algo dulce.</p>
+      <p>Si te gusta la buena repostería, ven a visitarnos en Posadas. Entre San Martín y Buenos Aires, encontrarás el
+        rincón perfecto para disfrutar de algo dulce.</p>
       <img src="../img/contacto/ubicacion.png" alt="Ubicación del local">
     </section>
 
@@ -102,4 +110,5 @@
   </footer>
 
 </body>
+
 </html>
